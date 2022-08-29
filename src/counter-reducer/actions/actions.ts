@@ -4,7 +4,7 @@ export type CounterAction =
 
 export const doReset = ():CounterAction => ({type: 'reset'});
 
-export const doIncreseBy = (value:number):CounterAction => {
+export const doIncreseBy = (value:number): CounterAction => {
     return {
         type:'increaseBy',
         payload:{value}
