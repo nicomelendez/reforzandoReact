@@ -1,6 +1,7 @@
 import { Counter } from "./components/Counter";
 import { CounterBy } from "./components/CounterBy";
 import { CounterEffect } from "./components/CounterEffect";
+import { CounterReducer } from "./components/CounterReducer";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
       </br>
       <hr></hr>
       <CounterEffect/>
+      <br>
+      </br>
+      <hr></hr>
+      <CounterReducer/>
     </>
   );
 }
