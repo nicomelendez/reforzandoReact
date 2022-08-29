@@ -1,7 +1,7 @@
 import { Counter } from "./components/Counter";
 import { CounterBy } from "./components/CounterBy";
 import { CounterEffect } from "./components/CounterEffect";
-import { CounterReducer } from "./components/CounterReducer";
+import { CounterReducer } from "./counter-reducer/CounterReducer";
 
 function App() {
   return (
